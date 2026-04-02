@@ -1,0 +1,25 @@
+{
+  "name": "Jane Hotel Manager",
+  "description": "Jane should be built as a multi-skill, multi-OTA operations agent with a shared normalization and guardrail layer sitting in front of Booking.com Connectivity and Expedia Connectivity Hub adapters. Read workflows can fan out across channels in parallel; write workflows must normalize scope, preview diffs, require approval, then execute per-channel actions with audit logging. Expedia support should be modeled as a supply-side connectivity integration, not Rapid traveler shopping. Webhooks should be preferred where available, with polling-based reconciliation and health checks as fallback.",
+  "skills": [
+    "booking-demand-market-intel",
+    "hotel-ops-briefing",
+    "ota-audit-log",
+    "ota-guardrails",
+    "ota-drift-monitor",
+    "ota-normalizer",
+    "expedia-messaging-reviews",
+    "expedia-product-manager",
+    "expedia-availability-rates-manager",
+    "expedia-connectivity-auth",
+    "expedia-reservations-sync",
+    "booking-property-sync",
+    "booking-ari-manager",
+    "booking-reservations-sync",
+    "booking-connectivity-auth",
+    "task-planner"
+  ],
+  "triggers": [],
+  "channels": [],
+  "runtimeInputs": []
+}
